@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+</head>
+<body>
+    <script>
+       //Обмен валюты
+        let dol = 68.25
+        let rub = 500
+
+        console.log(rub/dol)
+
+       //Вход
+        let datalogin = 'Sayful';
+        let datapas = '12345';
+
+        let login = prompt ('login?')
+        let password = prompt ('password?')
+
+        if(datalogin == login && datapas == password){
+            console.log('welcome')
+        }  else{
+            console.log('Error')
+        }
+
+        //switch
+
+        let code = 'css'
+
+        switch(code){
+            case 'html':
+                console.log('html');     
+            case 'css':
+                console.log('css');
+            case 'js': 
+            console.log('js');
+            break;
+            case 'react':
+                 console.log('react');
+        }
+    //3 способ проверки
+        let a = 2
+
+        let result = a > 1 ? 'yes' : 'no'
+
+        console.log(result);
+    </script>
+</body>
+</html>
