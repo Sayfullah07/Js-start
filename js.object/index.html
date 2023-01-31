@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <script>
+            let man = {
+                name: 'Sayfullah',
+                surname: 'Magomadow',
+                age: 17,
+                height: 172,
+                login: 'sm22',
+                password: 1234,
+                money: 20000,
+            }
+            
+            man.adress = 'saharova 16'
+            
+        let q = 1234 ;
+        if(q === man.password){
+            console.log(`Добро пожаловать ${man.name} ${man.surname}. Ваш логин ${man.login}`)
+        } else{
+            console.log(`${q} не верен. Попробуйте еще раз`);
+        }
+        
+            console.log(man)
+        </script>
+    </body>
+</html>
