@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>/*
+        .expo{
+            color: red;
+            font-size: 30px;
+            background-color: rgb(117, 77, 25);
+        }
+        */
+    </style>
+</head>
+<body>
+    <ul id = "ul"></ul>
+
+
+
+    <script>
+        //Lesson 23
+        let ul = document.getElementById('ul')
+
+        let li = document.createElement('li')
+
+        let li2 = document.createElement('li')
+
+        let li3 = document.createElement('li')
+
+        let li4 = document.createElement('li')
+
+        li.innerHTML = 'lorem 1'
+
+        li2.innerHTML = 'lorem 2'
+
+        li3.innerHTML = 'lorem 3'
+
+        li4.innerHTML = 'lorem 4'
+
+        ul.append(li)
+
+        ul.append(li2)
+
+        ul.append(li3)
+
+        ul.append(li4)
+    
+/*
+        //firstChild
+        //lastChild
+        //nextSibling
+        //PreviusSibling
+
+        //firstElementChild
+        //lastElementChild
+        //nextElementSibling
+        //PreviusElementSibling
+
+        let body = document.body
+        console.log(body.lastElementChild);
+
+        let ol = document.getElementById('ol')
+        let li = document.createElement('li')
+        li.innerHTML = 'lorem 5'
+
+        ol.append(li)
+        li.classList.toggle('expo')
+        console.log();
+
+        li.classList.add('expo')
+        li.classList.remove('expo')
+
+        let result = li.classList.contains('expo')
+
+        
+        //let inn = document.body.innerHTML = 'a'
+       
+        //ol.append('lorem 5')
+        
+        ul.prepend('lorem 6')
+
+        ul.after('after')
+        ul.before('befor')
+*/
+
+       
+        
+    </script>
+</body>
+</html>
