@@ -1,0 +1,22 @@
+.btn-arrows{
+    &__left{
+        border: 1px solid #F4F6F6;
+    border-radius: 20px;
+    padding: 12px 15px;
+    color: #666666;
+    }
+    &__right{
+        border: 1px solid #F4F6F6;;
+    border-radius: 20px;
+    padding: 12px 15px;
+    color: #666666;
+    }
+    &__left:hover{
+        color: #D1CECE;
+        cursor: pointer;
+        }
+        &__right:hover{
+            color:#D1CECE ;
+            cursor: pointer;
+        }
+}
